@@ -170,6 +170,21 @@ order_service_health   = "http://3.109.48.250:3004/health"
 
 ---
 
+## Deployment Screenshots
+
+### Frontend (http://3.109.48.250)
+![Frontend Homepage](screenshots/frontend-homepage.png)
+
+### Backend Health Checks
+| Service | Screenshot |
+|---------|-----------|
+| User Service (:3001) | ![User Service](screenshots/user-service-health.png) |
+| Product Service (:3002) | ![Product Service](screenshots/product-service-health.png) |
+| Cart Service (:3003) | ![Cart Service](screenshots/cart-service-health.png) |
+| Order Service (:3004) | ![Order Service](screenshots/order-service-health.png) |
+
+---
+
 ## Cleanup
 
 ```bash
